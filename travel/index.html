@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/assets/images/logo-travel.svg" type="image/svg">
+</head>
+<body>
+  <div class="container">
+    <div class="fon-blacke"></div>
+    <div class="popup-container closed">
+      <div class="popup">
+        <h3 class="popup-title">Log in to your account</h3>
+        <button class="button-popup button-popup-colored">
+          <span class="facebook-img popap-img"></span>
+          <span class="button-text">Sign In with Facebook</span>
+        </button>
+        <button class="button-popup">
+          <span class="google-img popap-img"></span>
+          <span class="button-text">Sign In with Google</span>
+        </button>
+        <div class="divider">
+          <span class="line"></span>
+          <span class="divider-text">or</span>
+          <span class="line"></span>
+        </div>
+        <div class="inputs-wrapper">
+          <label class="label">
+            E-mail
+            <input class="input-login" type="text">
+          </label>
+          <label class="label">
+            Password
+            <input class="input-login" type="password">
+          </label>
+        </div>
+        <button class="button-popup button-dark">
+          <span class="button-text">Sign In</span>
+        </button>
+        <button class="story-link">Forgot Your Password?</button>
+        <span class="line-big"></span>
+        <div class="registration-block">
+          <p class="registration-text">Don’t have an account?</p>
+          <button class="story-link">Register</button>
+        </div>
+      </div>
+    </div>
+  <header class="header">
+    <div class="header-container">
+    <div class="header-travel-container">
+    <a href="index.html">
+        <div class="header-logo">
+          <div class="header-travel-img"></div>
+          <div class="header-travel-titel">Travel Portal</div>
+     </div>
+    </a>
+  </div>
+  <div class="header-nav-button-container">
+    <nav class="header-nav">
+      <span class="burger-exit">
+        <span class="burger-exit-line"></span>
+        <span class="burger-exit-line"></span>
+      </span>
+      <ul class="nav-list">
+        <li class="nav-item"><a class="nav-link" href="#how-it-works">How It Works</a></li>
+        <li class="nav-item"><a class="nav-link" href="#plan-your-trip">Plan Your Trip</a></li>
+        <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
+        <li class="nav-item"><a class="nav-link" href="#travel-stories">Travel Stories</a></li>
+        <li class="nav-item nav-item-burger"><a class="nav-link account-login" href="#">Account</a></li>
+        <li class="nav-item nav-item-burger"><a class="nav-link" href="#social-media">Social Media</a></li>
+      </ul>
+    </nav>
+    <div class="button-wrapper">
+      <button class="button-login buttom-all">
+      <span class="button-login-text">Login</span>
+      </button>
+     </div>
+    </div>
+    <div class="header-burger">
+      <div class="burger">
+        <div class="hamburger">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </div>
+      </div>
+      </div>
+    </div>  
+  </header>
+  <main class="main">
+    <div class="main-container">
+        <section class="section section-explore" id="how-it-works">
+          <div class="section-explore-img"></div>
+          <div class="explore">
+            <div class="explore-content">
+              <h1 class="explore-title"><span class="header-item">Explore the beauty of </span><span class="header-item">the World</span></h1>
+              <p class="explore-text">Receive personalized recommendations for countries, hotels, activities and more</p>
+            </div>
+            <div class="start-planning-container">
+              <p class="start-planning-text">What would you like to do?</p>
+              <button class="button-planning buttom-all">
+                <span class="button-more-text">Start Planning</span>
+              </button>
+            </div>
+          </div>
+        </section>
+        <section class="section section-trip" id="plan-your-trip">
+          <div class="perfect-trip">
+            <h2 class="header-three steps-header">3 STEPS TO THE PERFECT TRIP</h2>
+            <div class="steps-items">
+            <div class="steps-item steps-item-one">
+              <div class="steps-item-icon tell-us-icon"></div>
+              <div class="steps-text steps-text-one">Tell us what you want to do</div>
+            </div>
+            <div class="steps-item steps-item-two">
+              <div class="steps-item-icon share-us-icon"></div>
+              <div class="steps-text steps-text-two">Share us preferable dates</div>
+            </div>
+            <div class="steps-item steps-item-three">
+              <div class="steps-item-icon we-will-icon"></div>
+              <div class="steps-text steps-text-three">We will give you recommendations</div>
+            </div>
+          </div>
+          </div>
+        </section>
+        <section class="section section-distinations" id="destinations">
+          <div class="distinations">
+            <h2 class="header-three">POPULAR DESTINATIONS</h2>
+            <div class="carousel-wrapper swiper">
+              <div class="image-slider swiper-wrapper">
+                <div class="slider slider-spain swiper-slide">
+                  <img src="assets/images/spain800.jpg" alt="Japan">
+                  <p class="image-text">Spain</p>
+                </div>  
+                <div class="slider slider-japan swiper-slide">
+                  <img src="assets/images/japan800.jpg" alt="Japan">
+                  <p class="image-text">Japan</p>
+                </div>  
+                <div class="slider slider-usa swiper-slide">
+                  <img src="assets/images/usa800.jpg" alt="Japan">
+                  <p class="image-text">Usa</p>
+                </div>  
+              </div>  
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+              <button class="find-more buttom-all">
+              <span class="button-more-wraper">
+              <span class="button-more-arrow"></span>
+              <span class="button-more-text">Find More</span>
+              </span>
+              </button>
+          </div>
+        </section>
+        <section class="section section-stories" id="travel-stories">
+          <div class="travel-stories">
+            <h2 class="header-three">TRAVEL STORIES</h2>
+            <div class="stories-container">
+              <div class="stories-container-img"></div>
+              <div class="stories-container-dum"></div>
+              <div class="stories-data-container">
+                <div class="stories-data-wrapper">
+                  <div class="stories-img thailand-img"></div>
+                    <div class="stories-content">
+                      <div class="stories-header">10 Photos of Attractive Thailand</div>
+                      <div class="stories-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
+                      <a href="#" class="link-more">Read More</a>
+                  </div>
+                </div>
+                <div class="stories-data-wrapper">
+                  <div class="stories-img utah-img"></div>
+                    <div class="stories-content">
+                    <div class="stories-header">Canyonlands National Park, Utah</div>
+                    <div class="stories-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
+                      <a href="#" class="link-more">Read More</a>
+                  </div>
+                </div>
+                <div class="stories-data-wrapper">
+                  <div class="stories-img mountains-img"></div>
+                    <div class="stories-content">
+                    <div class="stories-header">I left my heart in the Mountains!</div>
+                    <div class="stories-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
+                      <a href="#" class="link-more">Read More</a>
+                  </div>
+                </div>
+                <div class="stories-data-wrapper">
+                  <div class="stories-img life-img"></div>
+                    <div class="stories-content">
+                    <div class="stories-header">The Longest journey in my life!</div>
+                    <div class="stories-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
+                      <a href="#" class="link-more">Read More</a>
+                  </div>
+                </div>
+                  <button class="see-more buttom-all">
+                  <span class="button-more-wraper">
+                  <span class="button-more-arrow"></span>
+                  <span class="button-more-text">See More</span>
+                  </span>
+                  </button>
+            </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+      <footer class="footer" id="social-media">
+        <div class="footer-container">
+          <div class="footer-reserved">All Rights Reserved © Travel Portal</div>
+              <ul class="footer-contacts">
+                <li class="nav-item">
+                  <a class="github" href="https://github.com/AlexeiKozlovskiy" target="_blank">
+                    <div class="icon github-icon"></div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="youtube" href="https://rs.school/js-stage0/" target="_blank">
+                    <div class="icon youtube-icon"></div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="twitter" href="#" target="_blank">
+                    <div class="icon twitter-icon"></div>
+                  </a>
+                </li>
+              </ul>
+        </div>
+      </footer>
+      </div>
+      <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+      <script src="index.js"></script>
+</body>
+</html>
